@@ -5,7 +5,7 @@ input.keydown(function(e) {
   if (e.keyCode == "13") {
     console.log("input")
     var valueToSave = input.val();
-    addListItem(valueToSave);
+    addListItem("zachlist", valueToSave);
   }
 })
 
