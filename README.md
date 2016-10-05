@@ -1,0 +1,2 @@
+# frbslstchllng
+Classadoo generated repo
