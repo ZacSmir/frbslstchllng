@@ -10,5 +10,6 @@ input.keydown(function(e) {
 })
 
 onNewListItem("zachlist", function(value) {
+  console.log("WHY")
   $("#list-display").append("<div>" + value + "</div>")
 }) 
