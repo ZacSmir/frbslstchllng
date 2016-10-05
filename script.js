@@ -1,4 +1,4 @@
-var listvalue = ""
+var listvalue = "jacksList"
 var input = $("#inputthingy")
 var zachlist
 console.log("dogs")
