@@ -1,5 +1,5 @@
-var input = $("inputthingy")
-
+var input = $("#inputthingy")
+console.log("dogs")
 input.keydown(function(e) {	
   console.log("cats")
   if (e.keyCode == "13") {
