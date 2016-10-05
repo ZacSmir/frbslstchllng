@@ -1,7 +1,7 @@
 var input = $("#new-item-input")
 
 input.keydown(function(e) {	
-  console.log(""
+  console.log("cats")
   if (e.keyCode == "13") {
     console.log("input")
     var valueToSave = input.val();
