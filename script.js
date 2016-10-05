@@ -1,4 +1,4 @@
-var input = $("")
+var input = $("#new-item-input")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
@@ -7,6 +7,6 @@ input.keydown(function(e) {
   }
 })
 
-onNewListItem("davidsList", function(value) {
+onNewListItem("zachlist", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
 }) 
