@@ -16,6 +16,7 @@ function storeValue(name, value) {
 
 function addListItem(name, value) {		
   store.child("vars" + "/" + name).push(value)
+  console.log(name)
 }
 
 function onNewListItem(name, callback) {		
